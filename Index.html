@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- ===== Boxicons CSS ===== -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- Aos(animation) -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <!-- Navbar session -->
+    <nav class="navbar sticky">
+        <a href="#home" class="top-icon">
+            <span class="symbol">
+                < </span>
+                    <span class="top-logo">Venella Akansha</span>
+                    <span class="symbol">/> </span>
+        </a>
+
+        <div class="hamburger">
+            <span class="dash"></span>
+            <span class="dash"></span>
+            <span class="dash"></span>
+        </div>
+        <ul class="menu">
+            <li class="list"> <a href="#home" class="nav-link bold">Home</a></li>
+            <li class="list"><a href="#about" class="nav-link bold">About</a></li>
+            <li class="list"><a href="#contact" class="nav-link bold">Contact</a></li>
+            <li class="list"><a
+                    href="https://drive.google.com/file/d/1Z8GKz7Aag1otZeej0QZ_TVoacvEw7kXH/view?usp=sharing"
+                    class="nav-link bold">Resume</a></li>
+        </ul>
+    </nav>
+    <!-- <div class="blurbg"> -->
+    <img src="/images/moon.png" id="icon">
+    <!-- </div> -->
+
+    <!-- home session -->
+    <section class="banner" id="home">
+        <div class="info">
+            <div class="selfIntro" data-aos="fade-in">
+                <h1 class="heading">Hi👋, I'm Akansha</h1>
+                <h3 class="subheading">A <span class="auto-input content"></span></h3>
+
+                <div class="content">
+                   <b class="bold"> Software Engineer based in India</b>
+                   <br> Welcome to my digital corner where you can find my works, thoughts and random things.
+                </div>
+
+                <br>
+                <div class="btns">
+                    <button class="btn" onClick="getResume()">Download Resume</button>
+                </div>
+
+                <div class="media">
+                   <a href="https://www.linkedin.com/in/akansha-v-68b6a31a8/"> <img src="/media/linkedin.png" alt="img1" class="socio"></a>
+                    
+                   <a href="https://github.com/unknownuser2329"><img src="/media/github.png" alt="img2" class="socio"></a>
+                    
+                    <a href="https://twitter.com/AkanshaVennela"><img src="/media/twitter.png" alt="img3" class="socio"></a>
+                </div>
+
+            </div>
+
+            <img src="/svg/self.svg" alt="catAstro" class="self" data-aos="fade-in">
+
+        </div>
+        <img src="/images/moon.png" id="icon" alt="moon-bg">
+    </section>
+    <img src="/svg/bg.svg" class="bgImg" alt="background" data-aos="fade-up">
+
+    <div id="about" >
+        <div class="title">
+            <p class="head" data-aos="fade-left"> Let's get to know me</p>
+        </div>
+        <div class="aboutme" data-aos="fade-left">
+            <h3>Software Developer / Designer</h3>
+            <p>Hi, I'm Venella Akansha, a self-taught Full-Stack Developer based in Hyderabad, India. I am currently pursuing 
+                Computer Engineering at Bhoj Reddy Engineering College
+                 for Women, Hyderabad. I tend to make use of modern web technologies to build
+                  websites that looks great, feels fantastic and functions correctly.
+                  <br> My goal is to build products that provide pixel perfect, performant experience.</p>
+        </div>
+        <div class="tools" data-aos="fade-up">
+            <h5>Tools & Technology</h5>
+            <p>I bulid user focused websites using a combination of cutting-edge technologies.</p>
+            <div class="pics">
+
+                <div class="logo" data-aos="fade-up" data-aos-delay="100">
+                    <img src="./tools/java.svg" alt="img">
+                    <h4 >Java</h4>
+                </div>
+
+                <div class="logo" data-aos="fade-up" data-aos-delay="200">
+                    <img src="./tools/bootstrap.svg" alt="img">
+                    <h4>Bootstrap</h4>
+                </div>
+
+                <div class="logo" data-aos="fade-up" data-aos-delay="300">
+                    <img src="./tools/cpp.svg" alt="img">
+                    <h4>C++</h4>
+                </div>
+
+                <div class="logo" data-aos="fade-up" data-aos-delay="400">
+                    <img src="./tools/css.svg" alt="img">
+                    <h4>CSS</h4>
+                </div>
+
+                <div class="logo" data-aos="fade-up" data-aos-delay="500">
+                    <img src="./tools/figma.svg" alt="img">
+                    <h4>Figma</h4>
+                </div>
+
+                <div class="logo" data-aos="fade-up" data-aos-delay="600">
+                    <img src="./tools/git.svg" alt="img">
+                    <h4>Git</h4>
+                </div>
+
+                <div class="logo" data-aos="fade-up" data-aos-delay="100">
+                    <img src="./tools/html.svg" alt="img">
+                    <h4>HTML</h4>
+                </div>
+
+                <div class="logo" data-aos="fade-up" data-aos-delay="200">
+                    <img src="./tools/c.svg" alt="img">
+                    <h4>C</h4>
+                </div>
+
+
+                <div class="logo" data-aos="fade-up" data-aos-delay="300">
+                    <img src="./tools/mongodb.svg" alt="img">
+                    <h4>Mongo DB</h4>
+                </div>
+
+                <div class="logo" data-aos="fade-up" data-aos-delay="400">
+                    <img src="./tools/mysql.svg" alt="img">
+                    <h4>MySql</h4>
+                </div>
+
+                <div class="logo" data-aos="fade-up" data-aos-delay="500">
+                    <img src="./tools/nodejs.svg" alt="img">
+                    <h4>NodeJS</h4>
+                </div>
+
+                <div class="logo" data-aos="fade-up" data-aos-delay="600">
+                    <img src="./tools/react.svg" alt="img">
+                    <h4>React</h4>
+                </div>
+
+            </div>
+        </div>
+        <div class="education">
+            <h2 class="head" data-aos="fade-in" data-aos-delay="100">Education</h2>
+            <div class="subEdu" data-aos="fade-right">
+                <h3 class="major">B.Tech in Information Technology</h3>
+                <h6 class="batch bold">2019-2023</h6>
+                <h6 class="text">Bhoj Reddy Engineering College for Women, Hyderabad</h6>
+                <h6 class="text">CGPA: 7.2(present)</h6>
+            </div>
+
+            <div class="subEdu" data-aos="fade-left">
+                <h3 class="major">Higher Secondary Education</h3>
+                <h6 class="batch bold">2018-2019</h6>
+                <h6 class="text">Kendriya Vidyalaya No.2 Golconda(CBSE)</h6>
+                <h6 class="text">CGPA: 7.1</h6>
+            </div>
+
+            <div class="subEdu" data-aos="fade-right">
+                <h3 class="major">Senior Secondary Education</h3>
+                <h6 class="batch bold">2017-2018</h6>
+                <h6 class="text">Kendriya Vidyalaya No.2 Golconda(CBSE)</h6>
+                <h6 class="text">CGPA: 10.0</h6>
+            </div>
+        </div>
+    </div>
+    <div id="projects">
+        <h1 class="text head" data-aos="zoom-in">Projects</h1>
+        <h6 class="text" data-aos="fade">
+            Here's some of my projects that I have worked on.</h6>
+        <div class="projects-container">
+
+            <!-- <h2>Implemented using blah blah tech stack</h2> -->
+            <div class="card" data-aos="fade-up" data-aos-delay="100">
+                <img src="/images/newsApp.png" alt="projectImg" class="projectImg">
+                <div class="details text"><span>News Aquaint</span> is a news app developed using React and NewsAPI
+                </div>
+                <div class="links">
+                    <a href="https://github.com/unknownuser2329/NewsAcquaint"> <button class="text">Explore more</button></a>
+                </div>
+            </div>
+
+            <div class="card" data-aos="fade-up" data-aos-delay="200">
+                <h1></h1>
+                <img src="/images/chatApp.png" alt="projectImg" class="projectImg">
+                <div class="details text"><span>Hula</span> is a real-time chat application build using Socket.io</div>
+                <div class="links">
+                    <a href="https://github.com/unknownuser2329/Hula"><button>Explore more</button></a>
+                </div>
+            </div>
+
+            <div class="card" data-aos="fade-up" >
+                <img src="/images/JSgame.png" alt="projectImg" class="projectImg">
+                <div class="details text"><span>Escape</span> let's player guide the main character to jump in order to
+                    escape
+                    the
+                    obstacle.</div>
+                <div class="links">
+                   <a href="https://github.com/unknownuser2329/JS-Game"> <button>Explore more </button></a>
+
+                </div>
+
+            </div>
+        </div>
+        <div id="beforeContact" data-aos="fade-left">
+            <p class="head" >Contact</p>
+            <h3>If you want to know more about me or my work, or if you would just
+                like to say hello, send me a message. I'd love to hear from you.</h3>
+        </div>
+
+        <!-- CONTACT SECTION -->
+        <div id="contact" data-aos="fade-up">
+            <div class="container">
+                <span class="big-circle"></span>
+                <div class="form">
+                    <div class="contact-info">
+                        <h3 class="title">Let's get in touch</h3>
+
+                        <div class="Form-info">
+                            <img src="/svg/contactMe.svg" alt="">
+                        </div>
+
+                        <div class="social-media">
+                            <p class="formP">Connect with me :</p>
+                            <div class="socialIcons">
+                                <a href="#">
+                                    <i class="fa fa-map-pin fa-lg"></i>
+                                    <p> Hyderabad, India</p>
+                                </a> <br>
+                                <a href="#">
+                                    <i class="fa fa-envelope-open fa-lg" aria-hidden="true"></i>
+                                    <p> v.akansha23@gmail.com</p>
+                                </a> <br>
+
+                                <a href="#">
+                                    <i class="fa fa-volume-control-phone fa-lg" aria-hidden="true"></i>
+                                    <p> 91+ 9110730862</p>
+                                </a> <br>
+
+
+                                <a href="https://www.linkedin.com/in/akansha-v-68b6a31a8/">
+                                    <i class="fab fa-linkedin-in oc fa-2x"></i>
+                                </a>
+                                <a href="https://twitter.com/AkanshaVennela">
+                                    <i class="fab fa-twitter oc fa-2x"></i>
+                                </a>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form">
+                        <span class="circle one"></span>
+                        <span class="circle two"></span>
+                        <form action="https://formsubmit.co/3a9be70d4caccc4b8d503f4d5698f6ec" 
+                            autocomplete="off" method="POST">
+                            <div class="input-container">
+                                <input type="text" name="Name" class="input" />
+                                <label for="">Username</label>
+                                <span>Username</span>
+                            </div>
+                            <div class="input-container">
+                                <input type="email" name="Email" class="input" required />
+                                <label for="">Email</label>
+                                <span>Email</span>
+                            </div>
+                            <div class="input-container">
+                                <input type="tel" name="Phone" class="input" />
+                                <label for="">Phone</label>
+                                <span>Phone</span>
+                            </div>
+                            <div class="input-container textarea">
+                                <textarea name="Message" class="input" required></textarea>
+                                <label for="">Message</label>
+                                <span>Message</span>
+                            </div>
+                            <input type="submit" value="Send" class="form-btn" />
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="footer">
+            <h6>Made with 💜 by <span class="bold">Venella Akansha</span></h6> 
+        </div>
+        <h6 style="text-align: center;" class="copyFooter">© 2022 · All rights reserved</h6>
+        <script src="index.js"></script>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script>
+            //for auto fill font
+            var typed = new Typed(".auto-input", {
+                strings: ["Student", "Web Developer", "Blockchain enthusiast"],
+                typeSpeed: 100,
+                backSpeed: 100,
+                loop: true,
+            });
+        </script>
+        <!-- <h1>resources</h1>
+  <h2><a href="https://storyset.com/space">Space illustrations by Storyset</a></h2> -->
+  
+  <!-- Aos data(animation for page) -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+        offset: 150, 
+        duration: 1000,
+    });
+  </script>
+</body>
+
+</html>
+<!-- // hex color:733D92 -->
+<!-- "If you aren't the smartest person in the room, you are doing something right. If you are the smartest person in the room, find a different room." -->
