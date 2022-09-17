@@ -29,11 +29,11 @@ icon.onclick = function(){
     
 
     if(document.body.classList.contains("dark-theme")){
-                icon.src ="/images/sun.png";
+                icon.src ="./images/sun.png";
                 simg.forEach(x => x.classList.toggle("darkSocio"));
             }
             else{
-                icon.src="/images/moon.png";
+                icon.src="./images/moon.png";
                 simg.forEach(x => x.classList.remove("darkSocio"));
                 
             }
