@@ -61,5 +61,6 @@ inputs.forEach((input) => {
 
 // ***Download resume
 function getResume(target){
-  location.href="https://drive.google.com/file/d/1Z8GKz7Aag1otZeej0QZ_TVoacvEw7kXH/view?usp=sharing";
+  location.href="https://drive.google.com/file/d/1jCosOifpo8MbzeJFM_IduDlLon7ey7Pk/view?usp=sharing";
 };
+// https://drive.google.com/file/d/1jCosOifpo8MbzeJFM_IduDlLon7ey7Pk/view?usp=sharing
